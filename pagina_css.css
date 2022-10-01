@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+    letter-spacing: 1.2px;
+}
+
+:root{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 900;
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 18px;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+
+main{
+    padding-top: 150px;
+}
+
+main .primera{
+    height: 550px;
+    /**background-image: url("https://picsum.photos/id/1/1000/300");**/
+    background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)), url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--light-color);
+    padding-top: 120px;
+    padding-left: 200px;
+}
+
+main .primera h1{
+    font-size: 60px;
+}
+
+main .primera p{
+    padding-top: 15px;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+header .menu div button{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url("C:/Users/zavlo/Downloads/cart-solid-24.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+    cursor: pointer;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+
+main .shop:hover{
+    background-color: var(--light-color);
+}
+
+main button:hover{
+    color: var(--dark-color);
+}
+
+main .shop{
+    margin-top: 20px;
+    top: 25px;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--light-color);
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    font-size: 14px;
+}
+/**
+main .segunda{
+    padding-top: 100px;
+    padding-left: 175px;
+}
+
+main .segunda div .lorem1{
+    text-align: right;
+}
+
+main section .segunda .bloques{
+    background-color: var(--secondary-color);
+    width: 200px;
+    height: 300px;
+}
+**/
+
+/*margenes de la segunda parte*/
+
+main .segunda{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+main .segunda div p .texto_linea{
+    display: flex;
+    position: relative;
+
+}
+
+/*aqui comienzan las primeras cajas*/
+
+main .cajas div{
+    width: 350px;
+    height: 350px;
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+    margin-right: 65px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+main .bloques .cajas article{
+    width: 350px;
+    background-color: var(--light-color);
+    margin-top: 20px;
+    margin-right: 65px;
+    display: inline-block;
+    
+}
+
+/*lettras de las cajas*/
+
+main .segunda .bloques .cajas article div .numeros{
+    position: relative;
+    top: 50px;
+    right: -40px;
+    font-size: 35px;
+    color: var(--light-color);
+}
+
+/*letras de afuera*/
+
+main .segunda .bloques .cajas article p{
+    padding-top: 40px;
+}
+
+/**terminar*/
+
+main .segunda div .texto_linea{
+    width: 40px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    position: relative;
+    right: 30px;
+}
+
+/*numeros de cajas*/
+
+main .segunda .bloques .cajas article div .titulos{
+    position: relative;
+    top: 100px;
+    color: var(--light-color);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/*segunda parte*/
+
+main .cuarta{
+    min-height: 550px;
+    /** background-image: url("https://picsum.photos/1000/300");**/
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: var(--light-color);
+    padding-top: 120px;
+    padding-right: 200px;
+    text-align: right;
+    margin-top: 90px;
+}
+
+main .cuarta h2{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+main .cuarta p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+main .cuarta button{
+    top: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:var(--light-color);
+    cursor: pointer;
+    color:var(--secondary-color);
+    border: 1px solid white;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+main .cuarta button:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: 1px solid var(--primary-color);
+}
+
+/*cuadros*/
+
+main .quinta{
+    margin-top: 70px;
+    margin-left: 190px;
+    color: var(--dark-color);
+}
+
+main .quinta h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: var(--dark-color);
+}
+
+/*main .quinta div span{
+    width: 300px;
+    height: 300px;
+}**/
+
+/*cuadros de abajo*/
+
+main .quinta div{
+    width: 350px;
+    height: 350px;
+    background-color: var(--secondary-color);
+    margin-top: 10px;
+    margin-left: -28px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+/*cuadros*/
+
+/*boton de vista*/
+
+main .quinta .ver{
+    width: 170px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    MARGIN-left: 530px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+main .quinta .ver:hover{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+/*aqui termina el boton*/
+
+/*botones*/
+
+main .quinta div article button{
+    width: 100px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+}
+
+main .quinta div article button:hover{
+    background-color: var(--secondary-color);
+}
+
+main .quinta div article span button{
+    position:absolute;
+    left: 81%;
+    bottom: -200%;
+}
+
+/*comienza el pie de pagina*/
+
+footer{
+    background-color:var(--secondary-color);
+    height: 200px;
+}
+
+main .sexta .imagen1{
+    height: 200px;
+    background-image: url("C:/Users/zavlo/Downloads/earth.jpg");
+}
+
+main .quinta div{
+    background-color: var(--light-color);
+    width: 1300px;
+    height: 600px;
+    text-align: center;
+    color: var(--dark-color);
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+main .quinta div article{
+    width: 380px;
+    height: 500px;
+    margin-top: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    position: static;
+}
+
+main .sexta{
+    margin: 200px;
+    width: 78%;
+    height: 600px;
+    
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+
+
+main .sexta .ultimo-cuadro{
+    width: 80%;
+    height: auto;
+    background-color: var(--secondary-color);
+    display: flex;
+    border-radius: 5px;
+    padding: 45px;
+    justify-content:center;
+    text-align: center;
+}
+
+main .sexta .shop_local{
+    position: absolute;
+    left:  0%;
+    right: 50px;
+    bottom: 80px;
+    width: 30%;
+    height: 0px;
+    min-height: 440px;
+    border-radius: 5px;
+    background-position: 69% 80%;
+    background-size: 270%;
+    background-image: url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fe3910db4fde2e69f396_christiann-koepke-dQyS2pMYtok-unsplash%20(1).jpg");
+}
+
+
